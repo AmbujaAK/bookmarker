@@ -28,23 +28,23 @@
             <h3 class="text-muted">Bookmarker</h3>
         </div>
 
-        <!-- validation alert error-->
+        <!-- validation alert error
         <div class="alert alert-danger alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-hidden="true" aria-label="close">&times;</a>
             <div>
                 <strong>Error</strong>
                 <span id="error"></span>
             </div>
-        </div>
+        </div>-->
 
-        <!-- validation alert success -->
+        <!-- validation alert success
         <div class="alert alert-success alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-hidden="true" aria-label="close">&times;</a>
             <div>
                 <strong>Success !</strong>
                 <span id="success"> URL bookmarked </span>
             </div>
-        </div>
+        </div> -->
 
         <div class="jumbotron">
             <h2>Bookmark your favorite sites</h2>
@@ -81,19 +81,17 @@
             // initially keep the box hidden
             $('.alert').hide('fade');
             
-            /*
             $('button').click(function(){
                 $('.alert').hide('fade');
             })
-            */
+            
 
             $('button').click(function(){
                 $('.alert-danger').show('fade')
                 
                 setTimeout(function(){
                     $('.alert').hide();
-                }, 5000);
-                
+                }, 5000);  
             })
         });    
     </script>
